@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Clock from "./Clock";
 import Stats from "./Stats";
+import FriendBar from "./FriendBar";
 import { getUser } from "../server/players";
 
 const Main = () => {
@@ -24,6 +25,9 @@ const Main = () => {
             </div>
             <div className="stats">
                 <Stats/>
+            </div>
+            <div className="friends">
+                <FriendBar/>
             </div>
         </div>
     )

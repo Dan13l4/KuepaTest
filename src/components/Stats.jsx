@@ -14,7 +14,7 @@ const Stats = () => {
         }, []);
 
     return(
-        <div className="containerStats">
+        <div className="containerStats inactive">
             <div className="row">
                 <div className="col-xl-3 col-lg-6 mb-4">
                     <div className="bg-white rounded-lg p-5 shadow">

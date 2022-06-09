@@ -212,7 +212,7 @@ body{
   justify-items: center;
   align-items: center;
   position: absolute;
-  right: 50px;
+  right: 200px;
   top: 50px;
 }
 
@@ -228,7 +228,8 @@ body{
 }
 
 .containerStats{
-  margin-left: 100px;
+  margin-left: 300px;
+  width: 120%;
 }
 
 .progress {
@@ -310,4 +311,16 @@ body{
 
 div.h4 {
   line-height: 1rem;
+}
+
+.friendContainer{
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #2B2E43;
+  width: 120px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  transition: width .2s ease-in;
 }
